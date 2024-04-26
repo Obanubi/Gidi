@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.travel{
+    background-image: url('/src/assets/world_map_PNG28\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 65rem;
+    height: 55rem;
+}
+h1{
+    text-align: center;
+    padding-top: 8rem;
+}
+h4{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: lighter;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-top: 10rem;
+   
+ 
+}
+.foto div{
+    border-radius: 1rem;
+    border: 1rem solid white;
+    padding: 3rem;
+    padding-right: 2rem;
+    background-color: white;
+  
+   
+}
+@media screen and (max-width:320px){
+        .foto{
+            display:block
+                
+        }
+        
+        
+
+        
+    }
+  
